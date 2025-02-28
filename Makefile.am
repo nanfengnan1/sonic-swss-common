@@ -7,6 +7,7 @@ else
 DBGFLAGS = -g -DNDEBUG
 endif
 
+SWIG = swig
 SWIG_SOURCES = pyext/swsscommon.i
 SWIG_FLAG = -Wall -c++ -python -keyword
 if ARCH64
